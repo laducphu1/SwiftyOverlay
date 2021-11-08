@@ -7,17 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36FD596F200E6C5100374CA7 /* SwiftyOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FD596D200E6C5100374CA7 /* SwiftyOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36FD5977200E6C5900374CA7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD5975200E6C5900374CA7 /* Utilities.swift */; };
-		36FD5978200E6C5900374CA7 /* GDOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FD5976200E6C5900374CA7 /* GDOverlay.swift */; };
+		D64958D12739030100F02274 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64958CF2739030100F02274 /* Utilities.swift */; };
+		D64958D22739030100F02274 /* GDOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64958D02739030100F02274 /* GDOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36FD596A200E6C5100374CA7 /* SwiftyOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36FD596D200E6C5100374CA7 /* SwiftyOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyOverlay.h; sourceTree = "<group>"; };
-		36FD596E200E6C5100374CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		36FD5975200E6C5900374CA7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		36FD5976200E6C5900374CA7 /* GDOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDOverlay.swift; sourceTree = "<group>"; };
+		D64958CF2739030100F02274 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D64958D02739030100F02274 /* GDOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +31,7 @@
 		36FD5960200E6C5100374CA7 = {
 			isa = PBXGroup;
 			children = (
-				36FD596C200E6C5100374CA7 /* SwiftyOverlay */,
+				D64958CE2739030100F02274 /* SwiftyOverlay */,
 				36FD596B200E6C5100374CA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,15 +44,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36FD596C200E6C5100374CA7 /* SwiftyOverlay */ = {
+		D64958CE2739030100F02274 /* SwiftyOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				36FD5976200E6C5900374CA7 /* GDOverlay.swift */,
-				36FD5975200E6C5900374CA7 /* Utilities.swift */,
-				36FD596D200E6C5100374CA7 /* SwiftyOverlay.h */,
-				36FD596E200E6C5100374CA7 /* Info.plist */,
+				D64958CF2739030100F02274 /* Utilities.swift */,
+				D64958D02739030100F02274 /* GDOverlay.swift */,
 			);
-			path = SwiftyOverlay;
+			name = SwiftyOverlay;
+			path = Sources/SwiftyOverlay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,7 +61,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36FD596F200E6C5100374CA7 /* SwiftyOverlay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36FD5977200E6C5900374CA7 /* Utilities.swift in Sources */,
-				36FD5978200E6C5900374CA7 /* GDOverlay.swift in Sources */,
+				D64958D12739030100F02274 /* Utilities.swift in Sources */,
+				D64958D22739030100F02274 /* GDOverlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
